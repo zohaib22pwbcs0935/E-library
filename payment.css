@@ -1,0 +1,72 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #e6e6e6;
+}
+
+.payment-receipt {
+  background-color: #f5f5f5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 40px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.receipt-heading {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.book-details {
+  width: 100%;
+  margin-top: 20px;
+  border-collapse: collapse;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.book-details th, .book-details td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: left;
+}
+
+.book-details th {
+  background-color: #424446;
+  color: #fff;
+}
+
+.total-amount {
+  margin-top: 20px;
+  padding: 15px;
+  background-color: #424446;
+  color: #fff;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.return-home {
+  margin-top: 20px;
+  padding: 15px 30px;
+  font-size: 16px;
+  background-color: #862020;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.return-home:hover {
+  background-color: #27ae60;
+}
